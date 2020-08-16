@@ -156,5 +156,17 @@
 			</snapshots>
 		</pluginRepository>
 	</pluginRepositories>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>server-snapshots</name>
+        <url>http://localhost:8040/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+	   <repository>
+        <id>central</id>
+        <name>server-releases</name>
+        <url>http://localhost:8040/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
 
 </project>
